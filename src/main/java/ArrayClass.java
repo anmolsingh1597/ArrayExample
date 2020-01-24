@@ -36,9 +36,10 @@ public class ArrayClass {
          int min= array[0];
          int max=array[0];
          int sum=array[0];
+         for(int k=0;k<array.length;k++){
+             System.out.println("ArrayElement: "+ array[k]);
+         }
           for (int i=0;i<array.length;i++){
-              System.out.println("ArrayElement: "+ array[i]);
-
           if(array[i]<min){
             min=array[i];
          }
